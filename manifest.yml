@@ -1,0 +1,5 @@
+applications:
+- path: .
+  name: v2cf
+  random-route: true
+  memory: 128M
