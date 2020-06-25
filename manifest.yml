@@ -4,4 +4,4 @@ applications:
   random-route: true
   memory: 128M
   buildpacks:
-    - https://github.com/cloudfoundry/python-buildpack.git
+    - https://github.com/cloudfoundry/go-buildpack.git
