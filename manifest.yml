@@ -1,7 +1,0 @@
-applications:
-- path: .
-  name: v2cf0001
-  random-route: true
-  memory: 128M
-  buildpacks:
-    - https://github.com/cloudfoundry/python-buildpack.git
