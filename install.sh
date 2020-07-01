@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SH_PATH=$(cd "$(dirname "$0")";pwd)/cfapp
+SH_PATH=$(pwd)/cfapp
 install -d ${SH_PATH}
 cd ${SH_PATH}
 
