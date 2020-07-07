@@ -44,7 +44,7 @@ EOF
 install -d /tmp/v2ray
 install -d ${SH_PATH}/v2ray
 
-curl -L -H "Cache-Control: no-cache" -o /tmp/v2ray/v2ray.zip https://github.com/v2ray/v2ray-core/releases/download/v4.25.1/v2ray-linux-64.zip
+curl -L -H "Cache-Control: no-cache" -o /tmp/v2ray/v2ray.zip https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip
 unzip /tmp/v2ray/v2ray.zip -d /tmp/v2ray
 install -m 755 /tmp/v2ray/v2ray ${SH_PATH}/v2ray/v2ray
 install -m 755 /tmp/v2ray/v2ctl ${SH_PATH}/v2ray/v2ctl
